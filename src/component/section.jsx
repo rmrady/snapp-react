@@ -28,6 +28,11 @@ import images from '../assets/img/images.jfif'
 import easy from '../assets/img/easy.png'
 import fast from '../assets/img/fast.png'
 import eco from '../assets/img/eco.png'
+import video from '../assets/img/jazbranandeh1.mp4'
+import inco from '../assets/img/income.png'
+import hour from '../assets/img/hour.png'
+import bene from '../assets/img/benefits.png'
+import craf from '../assets/img/carfix.png'
 
 function section() {
     return (
@@ -202,34 +207,76 @@ function section() {
             </div>
 
             {/* section2 */}
-            <div className='p-20 text-center'>
+            <div className=' p-24 text-center'>
                 <img className='w-[90%]' src={capture1} alt="" />
             </div>
 
             {/* section3 */}
-            <div className='p-20 '>
-                <div className='flex'>
-                    <img className='w-[50%]' src={images} alt="" />
-                    <div className='w-[35%] mr-10'>
+            <div className='px-20 '>
+                <div className='lg:flex'>
+                    <img className='w-full h-[300px] lg:h-auto lg:w-[50%]' src={images} alt="" />
+                    <div className='w-full lg:w-[35%] mr-10'>
                         <h3 className='text-[25px] font-bold  mb-5'>سوپر اپ اسنپ؛ پاسخی به تمام نیازها</h3>
-                        <p className='text-gray-500'>اسنپ، اولین تاکسی اینترنتی ایران، بعد از پنج سال فعالیت در حوزه‌ی تردد شهری، به یک سوپر‌اپ با خدمات متنوع تبدیل شد. سوپراپ اسنپ راه‌حلی جدید و ساده است که با استفاده از آن تنها با یک اپلیکیشن می‌توانید علاوه بر درخواست خودرو، موتور و وانت از خدمات متعددی از جمله سفارش غذا، پزشک و مشاور آنلاین، خرید از سوپرمارکت‌ها و فروشگاه‌ها، اسباب‌کشی، خرید بلیط (هواپیما، اتوبوس، قطار)، رزرو هتل، پرداخت قبض و خرید شارژ استفاده کنید.</p>
+                        <p className='text-gray-500 text-[14px] lg:text-[12px] xl:text-[16px]'>اسنپ، اولین تاکسی اینترنتی ایران، بعد از پنج سال فعالیت در حوزه‌ی تردد شهری، به یک سوپر‌اپ با خدمات متنوع تبدیل شد. سوپراپ اسنپ راه‌حلی جدید و ساده است که با استفاده از آن تنها با یک اپلیکیشن می‌توانید علاوه بر درخواست خودرو، موتور و وانت از خدمات متعددی از جمله سفارش غذا، پزشک و مشاور آنلاین، خرید از سوپرمارکت‌ها و فروشگاه‌ها، اسباب‌کشی، خرید بلیط (هواپیما، اتوبوس، قطار)، رزرو هتل، پرداخت قبض و خرید شارژ استفاده کنید.</p>
                     </div>
                 </div>
-                <div className='flex px-32 mt-[-40px]'>
+                <div className='md:flex lg:px-32 mt-10 lg:mt-[-40px]'>
                     <div>
-                        <div className=' bg-slate-200 rounded-2xl px-8 py-3'><img src={easy} alt="" /></div>
+                        <div className='w-[80%] h-[200px] bg-slate-200 rounded-2xl px-8 py-3'><img src={easy} alt="" /></div>
                         <h3 className='text-[20px] font-bold mt-3'>آسان</h3>
                         <p className='text-[14px] text-gray-400 mt-5'>برای استفاده از هر کدام از خدمات سوپر‌اپ اسنپ کافی است وارد اپلیکیشن اسنپ شوید و روی آیکون مورد نظر بزنید.</p>
                     </div>
-                    <div className='mx-20'>
-                        <div className=' bg-slate-200 rounded-2xl  py-3'><img  src={fast} alt="" /></div>
+                    <div className='mx-10 lg:mx-20'>
+                        <div className='w-[85%] h-[200px] bg-slate-200 rounded-2xl px-8 py-3'><img src={fast} alt="" /></div>
                         <h3 className='text-[20px] font-bold mt-3'>سریع</h3>
                         <p className='text-[14px] text-gray-400 mt-5'>قرار گرفتن خدمات مختلف در یک پلت‌فرم به صرفه‌جویی در زمان کمک می‌کند. سوپراپ اسنپ پاسخی سریع به نیازهای رومزه‌ی شماست.</p>
                     </div>
                     <div>
-                        <div className=' bg-slate-200 rounded-2xl px-8 py-3'><img src={eco} alt="" /></div>
+                        <div className='w-[80%] h-[200px] bg-slate-200 rounded-2xl px-8 py-3'><img src={eco} alt="" /></div>
                         <h3 className='text-[20px] font-bold mt-3'>به صرفه</h3>
                         <p className='text-[14px] text-gray-400 mt-5'>سوپراپ اسنپ علاوه بر زمان در هزینه‌های شما نیز صرفه‌جویی می‌کند تا بهترین خدمات را با قیمتی منطقی دریافت کنید.</p>
+                    </div>
+                </div>
+            </div>
+            {/* section4 */}
+            <div className='w-full flex flex-col items-center bg-slate-200 mt-10 pb-20'>
+                <h2 className='text-[20px] lg:text-[35px] font-bold  pt-10'>در کمتر از ۱۰ دقیقه ثبت‌نام کنید و به ناوگان اسنپ بپیوندید.</h2>
+                <h4 className='text-gray-500 pt-5'>بدون نیاز به مراجعه‌ی حضوری، از طریق این صفحه، تمام مراحل ثبت‌نام را اینترنتی انجام دهید</h4>
+                <button className=' bg-green-500 font-bold text-white rounded-xl mt-10 px-5 py-2'>ثبت‌نام رانندگان</button>
+                <video className='w-[70%] rounded-lg mt-10' src={video}></video>
+                <div className='mt-10'>
+                    <div className='lg:flex px-32'>
+                        <div className='w-[100%] lg:w-[50%] h-[200px] bg-white rounded-xl flex flex-col lg:flex-row items-center p-5 mt-8'>
+                            <img src={inco} alt="" />
+                            <div className='text-center lg:text-right'>
+                                <p className='font-bold  text-[10px] lg:text-lg'> درآمد تضمینی + پاداش‌های ماهانه و هفتگی</p>
+                                <p className='hidden md:block text-gray-400 text-[14px]'>با فعالیت در ناوگان اسنپ، علاوه بر کسب درآمد مستمر و امکان تسویه در لحظه می‌توانید با شرکت در طرح‌های تشویقی مختلف، درآمد خود را افزایش دهید.</p>
+                            </div>
+                        </div>
+                        <div className='w-[100%] lg:w-[50%] h-[200px] bg-white rounded-xl flex flex-col lg:flex-row items-center p-5 mt-8 lg:mr-10'>
+                            <img src={hour} alt="" />
+                            <div className='text-center lg:text-right'>
+                                <p className='font-bold  text-[10px] lg:text-lg'>ساعت کاری دلخواه</p>
+                                <p className='hidden md:block text-gray-400 text-[14px]'>فعالیت در ناوگان اسنپ محدودیت زمانی ندارد و می‌توانید فعالیت خود را در هر ساعت از شبانه‌روز و متناسب با برنامه‌ی زندگی‌تان شخصی‌سازی کنید.</p>
+                            </div>
+                        </div>
+                    </div>
+                    {/* ---------------------------------- */}
+                    <div className='lg:flex px-32 mt-5'>
+                        <div className='w-[100%] lg:w-[50%] h-[200px] bg-white rounded-xl flex flex-col lg:flex-row items-center p-5 mt-8'>
+                            <img src={bene} alt="" />
+                            <div className='text-center lg:text-right'>
+                                <p className='font-bold  text-[10px] lg:text-lg'>مزایا و خدمات باشگاه رانندگان</p>
+                                <p className='hidden md:block text-gray-400 text-[14px]'>در باشگاه رانندگان اسنپ می‌توانید از تسهیلات و خدمات متنوعی از جمله خدمات خودرویی، خدمات درمانی و همچنین خدمات رفاهی و آموزشی بهره‌مند شوید.</p>
+                            </div>
+                        </div>
+                        <div className='w-[100%] lg:w-[50%] h-[200px] bg-white rounded-xl flex flex-col lg:flex-row items-center p-5 mt-8 lg:mr-10'>
+                            <img src={craf} alt="" />
+                            <div className='text-center lg:text-right'>
+                                <p className='font-bold  text-[10px] lg:text-lg'>کار‌فیکس</p>
+                                <p className='hidden md:block text-gray-400 text-[14px]'>باشگاه رانندگان اسنپ به‌تازگی سرویس جدید «اسنپ کارفیکس» را برای سهولت دسترسی کاربران راننده به انواع خدمات خودرویی راه‌اندازی کرده است.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
