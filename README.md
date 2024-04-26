@@ -1,8 +1,36 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br/>
+<div align="center">
+<a href="https://github.com/ShaanCoding/ReadME-Generator">
+<img src="https://source.unsplash.com/random/256x256" alt="Logo" width="80" height="80">
+</a>
+<h3 align="center">snapp.ir</h3>
+<p align="center">
+this website is looklike snapp website
+<br/>
+<br/>
+<a href="https://github.com/rmrady/snapp-react"><strong>Explore the docs »</strong></a>
 
-Currently, two official plugins are available:
+  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+</p>
+</div>
+
+ ## About The Project
+
+![Product Screenshot](src/assets/img/Capture4.png)
+
+Snap project is an example of Persian language websites and I decided to design an example of it
+ ### Built With
+
+This project was built with:
+
+- [React](https://reactjs.org)
+- [tailwind](https://tailwind.com)
+ ## Contact
+
+Your Name -  Razieh Moradi (rmrady758@gmail.com)
+
+Project Link: https://github.com/rmrady/snapp-react
+
