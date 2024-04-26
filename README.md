@@ -2,7 +2,7 @@
 <br/>
 <div align="center">
 <a href="https://github.com/ShaanCoding/ReadME-Generator">
-<img src="src/assets/img/snapp-pwa.png" alt="Logo" width="80" height="80">
+<img src="src/assets/img/snappTextLogo.svg" alt="Logo" width="80" height="80">
 </a>
 <h3 align="center">snapp.ir</h3>
 <p align="center">
